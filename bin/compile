@@ -9,7 +9,7 @@ set -e
 
 BUILD_DIR=$1
 CACHE_DIR=$2
-VENDOR_DIR="$BUILD_DIR/vendor"
+VENDOR_DIR="vendor"
 EXPORT_PATH="$PWD/export"
 PROFILE_PATH="$BUILD_DIR/.profile.d/gsl.sh"
 
